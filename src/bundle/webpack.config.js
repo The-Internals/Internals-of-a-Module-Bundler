@@ -5,11 +5,15 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
   },
-  // optimization: {
-  //   splitChunks: {
-  //     chunks: 'all',
-  //     minChunks: 2,
-  //   },
+  optimization: {
+    splitChunks: {
+      runtime: true,
+      chunks: 'all',
+      minChunks: 2,
+    },
+  },
+  // alias: {
+  //   bundle: './src/bundle'
   // },
   module: {
     rules: [
@@ -34,3 +38,17 @@ module.exports = {
     ],
   },
 };
+
+// module.accept((bundle) => {
+//   updateMyReducer(bundle);
+// });
+
+// __foo() {
+//   webpack.foo();
+// }
+
+// webpack.foo = new Function();
+
+// function foo() {
+//   console.log('bar');
+// }

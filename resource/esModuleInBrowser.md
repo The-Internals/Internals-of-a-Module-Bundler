@@ -11,10 +11,13 @@ import { foo } from 'https://jakearchibald.com/utils/bar.mjs';
 import { foo } from '/utils/bar.mjs';
 import { foo } from './bar.mjs';
 import { foo } from '../bar.mjs';
+
+foo();
 ```
 
 Issue
 
+- Versioning
 - Paths for other modules third party module has to be absolute.
 - Tree-shake
 - Cross browser support. (Can be polyfill)

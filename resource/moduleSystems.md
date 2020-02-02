@@ -1,3 +1,9 @@
+## Global
+
+```js
+const React = window.React;
+```
+
 ## Commonjs
 
 ```js
@@ -7,14 +13,14 @@ const React = require('react');
 ## ESM
 
 ```js
-import React from 'react';
+import React, { useState } from 'react';
 ```
 
 ### Dynamic import
 
 ```js
-import('react').then(React => {
-  //React.default
+import('lodash').then(React => {
+  //React
 });
 ```
 
@@ -24,14 +30,12 @@ import('react').then(React => {
 requirejs(['react'], React => {});
 ```
 
-## Global
-
-```js
-const React = window.React;
-```
-
 ## SystemJS import
 
 ```js
-System.import('react');
+System.import('./app.js'); //jspm
 ```
+
+<!-- require.ensure([], () => {
+  const React = require('react');
+}) -->

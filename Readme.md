@@ -26,3 +26,9 @@ https://webpack.js.org/contribute/writing-a-loader
 
 Webpack common chunk strategy
 https://webpack.js.org/plugins/split-chunks-plugin
+
+Microbundle
+https://github.com/developit/microbundle
+
+Hot reloading
+https://facebook.github.io/react-native/blog/2016/03/24/introducing-hot-reloading.html

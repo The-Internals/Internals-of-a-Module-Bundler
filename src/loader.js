@@ -6,7 +6,7 @@ module.exports = function(source) {
   // Apply some transformations to the source...
 
   console.log(source, typeof source);
-  return `export default ${source}`;
+  // return `export default ${source.replace('a', 'd')}`;
 
-  // this.callback(output, map, meta)
+  this.callback(output, map, { ast: ast });
 };

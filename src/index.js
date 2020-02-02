@@ -10,8 +10,8 @@ console.log(obj);
 //   return a * b;
 // };
 
-// testMockUtil.updateSum(function(a, b) {
-//   return a * b;
-// });
+testMockUtil.updateSum(function(a, b) {
+  return a * b;
+});
 
 testMock(2, 3);
