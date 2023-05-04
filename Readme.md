@@ -32,3 +32,6 @@ https://github.com/developit/microbundle
 
 Hot reloading
 https://facebook.github.io/react-native/blog/2016/03/24/introducing-hot-reloading.html
+
+## Live discussion recording
+https://www.youtube.com/watch?v=3DVhJYN7lOA
